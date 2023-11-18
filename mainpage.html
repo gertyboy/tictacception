@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TicTacCeption</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="row">
+      <span class="hiddenxone"></span>
+      <span class="box topleft firstbox" value="1" id="11"></span>
+      <span class="box topcenter firstbox" value="1" id="12"></span>
+      <span class="box topright firstbox" value="1" id="13"></span>
+      <span class="box topleft secondbox" value="2" id="21"></span>
+      <span class="box topcenter secondbox" value="2" id="22"></span>
+      <span class="box topright secondbox" value="2" id="23"></span>
+      <span class="box topleft thirdbox" value="3" id="31"></span>
+      <span class="box topcenter thirdbox" value="3" id="32"></span>
+      <span class="box topright thirdbox" value="3" id="33"></span>
+    </div>
+    <div class="row">
+      <span class="box middleleft firstbox" value="1" id="14"></span>
+      <span class="box middlecenter boxonewinnerbox firstbox" value="1" id="15"></span>
+      <span class="box middleright firstbox" value="1" id="16"></span>
+      <span class="box middleleft secondbox" value="2" id="24"></span>
+      <span class="box middlecenter boxtwowinnerbox secondbox" value="2" id="25"></span>
+      <span class="box middleright secondbox" value="2" id="26"></span>
+      <span class="box middleleft thirdbox" value="3" id="34"></span>
+      <span class="box middlecenter boxthreewinnerbox thirdbox" value="3" id="35"></span>
+      <span class="box middleright thirdbox" value="3" id="36"></span>
+    </div>
+    <div class="row">
+      <span class="box bottomleft firstbox" value="1" id="17"></span>
+      <span class="box bottomcenter firstbox" value="1" id="18"></span>
+      <span class="box bottomright firstbox" value="1" id="19"></span>
+      <span class="box bottomleft secondbox" value="2" id="27"></span>
+      <span class="box bottomcenter secondbox" value="2" id="28"></span>
+      <span class="box bottomright secondbox" value="2" id="29"></span>
+      <span class="box bottomleft thirdbox" value="3" id="37"></span>
+      <span class="box bottomcenter thirdbox" value="3" id="38"></span>
+      <span class="box bottomright thirdbox" value="3" id="39"></span>
+    </div>
+    <div class="row">
+      <span class="box topleft fourthbox" value="4" id="41"></span>
+      <span class="box topcenter fourthbox" value="4" id="42"></span>
+      <span class="box topright fourthbox" value="4" id="43"></span>
+      <span class="box topleft fifthbox" value="5" id="51"></span>
+      <span class="box topcenter fifthbox" value="5" id="52"></span>
+      <span class="box topright fifthbox" value="5" id="53"></span>
+      <span class="box topleft sixthbox" value="6" id="61"></span>
+      <span class="box topcenter sixthbox" value="6" id="62"></span>
+      <span class="box topright sixthbox" value="6" id="63"></span>
+    </div>
+    <div class="row">
+      <span class="box middleleft fourthbox" value="4" id="44"></span>
+      <span class="box middlecenter boxfourwinnerbox fourthbox" value="4" id="45"></span>
+      <span class="box middleright fourthbox" value="4" id="46"></span>
+      <span class="box middleleft fifthbox" value="5" id="54"></span>
+      <span class="box middlecenter boxfivewinnerbox fifthbox" value="5" id="55"></span>
+      <span class="box middleright fifthbox" value="5" id="56"></span>
+      <span class="box middleleft sixthbox" value="6" id="64"></span>
+      <span class="box middlecenter boxsixwinnerbox sixthbox" value="6" id="65"></span>
+      <span class="box middleright sixthbox" value="6" id="66"></span>
+    </div>
+    <div class="row">
+      <span class="box bottomleft fourthbox" value="4" id="47"></span>
+      <span class="box bottomcenter fourthbox" value="4" id="48"></span>
+      <span class="box bottomright fourthbox" value="4" id="49"></span>
+      <span class="box bottomleft fifthbox" value="5" id="57"></span>
+      <span class="box bottomcenter fifthbox" value="5" id="58"></span>
+      <span class="box bottomright fifthbox" value="5" id="59"></span>
+      <span class="box bottomleft sixthbox" value="6" id="67"></span>
+      <span class="box bottomcenter sixthbox" value="6" id="68"></span>
+      <span class="box bottomright sixthbox" value="6" id="69"></span>
+    </div>
+    <div class="row">
+      <span class="box topleft seventhbox" value="7" id="71"></span>
+      <span class="box topcenter seventhbox" value="7" id="72"></span>
+      <span class="box topright seventhbox" value="7" id="73"></span>
+      <span class="box topleft eighthbox" value="8" id="81"></span>
+      <span class="box topcenter eighthbox" value="8" id="82"></span>
+      <span class="box topright eighthbox" value="8" id="83"></span>
+      <span class="box topleft ninthbox" value="9" id="91"></span>
+      <span class="box topcenter ninthbox" value="9" id="92"></span>
+      <span class="box topright ninthbox" value="9" id="93"></span>
+    </div>
+    <div class="row">
+      <span class="box middleleft seventhbox" value="7" id="74"></span>
+      <span class="box middlecenter boxsevenwinnerbox seventhbox" value="7" id="75"></span>
+      <span class="box middleright seventhbox" value="7" id="76"></span>
+      <span class="box middleleft eighthbox" value="8" id="84"></span>
+      <span class="box middlecenter boxeightwinnerbox eighthbox" value="8" id="85"></span>
+      <span class="box middleright eighthbox" value="8" id="86"></span>
+      <span class="box middleleft ninthbox" value="9" id="94"></span>
+      <span class="box middlecenter boxninewinnerbox ninthbox" value="9" id="95"></span>
+      <span class="box middleright ninthbox" value="9" id="96"></span>
+    </div>
+    <div class="row">
+      <span class="box bottomleft seventhbox" value="7" id="77"></span>
+      <span class="box bottomcenter seventhbox" value="7" id="78"></span>
+      <span class="box bottomright seventhbox" value="7" id="79"></span>
+      <span class="box bottomleft eighthbox" value="8" id="87"></span>
+      <span class="box bottomcenter eighthbox" value="8" id="88"></span>
+      <span class="box bottomright eighthbox" value="8" id="89"></span>
+      <span class="box bottomleft ninthbox" value="9" id="97"></span>
+      <span class="box bottomcenter ninthbox" value="9" id="98"></span>
+      <span class="box bottomright ninthbox" value="9" id="99"></span>
+    </div>
+    <div class="winner"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
